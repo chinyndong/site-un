@@ -1,0 +1,96 @@
+
+      /* Styles spécifiques à la gestion des pièces */
+      #gestion-pieces {
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      #gestion-pieces h2 {
+        color: #343a40;
+      }
+
+      .table th,
+      .table td {
+        vertical-align: middle;
+      }
+
+      .btn-success {
+        background-color: #28a745;
+        border-color: #28a745;
+      }
+
+      .btn-success:hover {
+        background-color: #218838;
+        border-color: #1e7e34;
+      }
+
+      .btn-warning,
+      .btn-danger {
+        width: 100px; /* Uniformiser la taille des boutons */
+      }
+
+      .btn-warning {
+        background-color: #ffc107;
+        border-color: #ffc107;
+        margin-right: 10px; /* Ajouter un espace entre les boutons */
+      }
+
+      .btn-warning:hover {
+        background-color: #e0a800;
+        border-color: #d39e00;
+      }
+
+      .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+        margin-top: 5px;
+      }
+
+      .btn-danger:hover {
+        background-color: #c82333;
+        border-color: #bd2130;
+      }
+
+      /* Modal Styles */
+      .modal-header {
+        background-color: #007bff;
+        color: #ffffff;
+      }
+
+      .modal-footer {
+        background-color: #f1f1f1;
+      }
+
+      .form-label {
+        font-weight: 600;
+      }
+
+      .form-control {
+        border-radius: 4px;
+      }
+
+      textarea.form-control {
+        resize: vertical;
+      }
+    
+      .section{
+        background-color: #343a40;
+        color: white;
+      }
+
+      .liens, .btn-add{
+        color: white;
+      }
+
+      .btn-add:hover{
+        background-color: #343a40;
+        color: white;
+      }
+
+      .deconnexion:hover{
+        background-color: #343a40;
+      }
+      
+  

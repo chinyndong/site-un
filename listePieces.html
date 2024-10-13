@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/listePieces.css" />
+    <title>Liste des Pièces Retrouvées</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="vertical-menu">
+        <!-- Menu vertical comme précédemment -->
+      </nav>
+
+      <div class="main-content">
+        <header>
+          <h1>Liste des Pièces Retrouvées</h1>
+          <button class="btn add-button">Ajouter une Nouvelle Pièce</button>
+        </header>
+
+        <div class="search-bar">
+          <input
+            type="text"
+            placeholder="Rechercher une pièce..."
+            id="searchInput"
+          />
+        </div>
+
+        <table class="pieces-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Description</th>
+              <th>Type</th>
+              <th>Date de Récupération</th>
+              <th>Statut</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Clé de voiture</td>
+              <td>Clé</td>
+              <td>2024-10-05</td>
+              <td><span class="status available">Disponible</span></td>
+              <td>
+                <button class="btn edit-button">Modifier</button>
+                <button class="btn delete-button">Supprimer</button>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Portefeuille noir</td>
+              <td>Accessoire</td>
+              <td>2024-10-07</td>
+              <td><span class="status returned">Restitué</span></td>
+              <td>
+                <button class="btn edit-button">Modifier</button>
+                <button class="btn delete-button">Supprimer</button>
+              </td>
+            </tr>
+            <!-- Ajouter d'autres lignes de pièces ici -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

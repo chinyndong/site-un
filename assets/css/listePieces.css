@@ -1,0 +1,64 @@
+/* styles.css (ajouts pour la liste des pièces) */
+
+/* Style pour le tableau */
+.pieces-table {
+    width: 100%; /* Largeur complète */
+    border-collapse: collapse; /* Fusionne les bordures */
+    margin-top: 20px; /* Marge en haut */
+}
+
+.pieces-table th, .pieces-table td {
+    border: 1px solid #ccc; /* Bordure grise */
+    padding: 10px; /* Remplissage des cellules */
+    text-align: left; /* Alignement à gauche */
+}
+
+.pieces-table th {
+    background-color: #2c3e50; /* Couleur de fond des en-têtes */
+    color: white; /* Couleur du texte des en-têtes */
+}
+
+.status {
+    padding: 5px 10px; /* Remplissage intérieur */
+    border-radius: 5px; /* Coins arrondis */
+    color: white; /* Couleur du texte */
+}
+
+.available {
+    background-color: #27ae60; /* Couleur pour disponible */
+}
+
+.returned {
+    background-color: #3498db; /* Couleur pour restitué */
+}
+
+/* Barre de recherche */
+.search-bar {
+    margin-top: 20px; /* Marge au-dessus */
+}
+
+.search-bar input {
+    padding: 10px; /* Remplissage */
+    width: 100%; /* Largeur complète */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+/* Boutons */
+.btn {
+    background-color: #2c3e50; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 10px 15px; /* Remplissage */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur main */
+    transition: background-color 0.3s; /* Transition */
+}
+
+.btn:hover {
+    background-color: #34495e; /* Couleur au survol */
+}
+
+.add-button {
+    margin-left: auto; /* Espace à gauche */
+}
